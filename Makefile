@@ -7,4 +7,4 @@ newday:
 build:
 	mdbook build
 publish:
-	mdbook build && surge book/ https://nnums-book.surge.sh
+	mdbook build && surge book/ nnums.surge.sh
