@@ -2,6 +2,8 @@
 
 [Introduction](./introduction)
 
+- [Wednesday, Nov 01, 2023](./2023/2023-11/2023-11-01.md)
+- [Wednesday, Oct 18, 2023](./2023/2023-10/2023-10-18.md)
 - [Blog](./blog)
   - [Wednesday, Oct 04, 2023](./2023/2023-10/2023-10-04.md)
   - [Monday, Oct 02, 2023](./2023/2023-10/2023-10-02.md)
