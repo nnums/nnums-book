@@ -2,9 +2,9 @@
 
 The goal: solve a simple leetcode problem, <https://leetcode.com/problems/palindrome-number/>, but in J.
 
-In other words, define a function that takes an integer as an input and returns true if the number, as written in decimal form, is a palindrome and false otherwise.
+In other words, define a function that takes an integer as an input and returns true if the number, as written in decimal form, is a palindrome, and false otherwise.
 
-## Cast a number as a string
+## Cast a number as a string (`":`)
 
 How do I convert a number from a decimal to a string?
 
@@ -15,7 +15,7 @@ In J, the answer is `":`
 10
 ```
 
-## Reverse a string
+## Reverse a string (`|.`)
 
 In J, reverse is `|.`.
 
@@ -24,7 +24,19 @@ In J, reverse is `|.`.
 ih
 ```
 
-## Compare
+Note that if you try to reverse a number, you just get back the number.
+It's helpful in that case to think of the number as an array with just one element.
+Reverse an array with one element and you just get the element back.
+Anyway, if you reverse a string made from that number you get the reversal we seek:
+
+```j
+    |. 123
+123
+    |. ": 123
+321
+```
+
+## Test Equality (`-:`)
 
 In J, comparing two nouns (like string arrays or number arrays or just atoms) is done using `-:` .
 
